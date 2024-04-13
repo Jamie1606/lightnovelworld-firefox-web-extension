@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "LightNovelWorld Extractor",
+  "author": "Yi Tian Guang Ming",
+  "version": "1.0",
+  "description": "Automatically extract light novel text from LightNovelWorld website",
+  "action": {
+    "default_icon": {
+      "16": "icon path",
+      "32": "icon path"
+    },
+    "default_title": "LightNovelWorld Extractor",
+    "default_popup": "popup/popup.html",
+    "theme_icons": [
+      {
+        "light": "icon path",
+        "dark": "icon path",
+        "size": 16
+      },
+      {}
+    ]
+  },
+  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/main/beastify",
+  "permissions": ["activeTab"],
+  "icons": {
+    "48": "icons/beasts-48.png"
+  },
+  "web_accessible_resources": ["beasts/frog.jpg", "beasts/turtle.jpg", "beasts/snake.jpg"]
+}
